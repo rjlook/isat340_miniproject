@@ -1,2 +1,2 @@
 # isat340_miniproject
-## LYLE AND Robert Jr PROJECT
+## LYLE RODGERS AND ROBERT LOOK JR> PROJECT
