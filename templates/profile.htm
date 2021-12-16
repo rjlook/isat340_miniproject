@@ -1,0 +1,86 @@
+<!-- Robert Look Jr. & Lyle Rodgers -->
+<!DOCTYPE html/>
+<html lang="en">
+
+<head>
+	
+<title>Document</title>
+<style type = "text/css"> body { background-color: lightblue; } </style>
+</head>
+
+
+<body>
+	<fieldset>
+	
+	<legend>Personal information:</legend>
+	<p> Please <b> update </b> your profile information on the following form</p>
+	<p style="font-style: italic;">All fields are required and must contain valid
+information</p>
+
+	<form action="" method="post">
+		<table Border="2">
+			<tr>
+				<td>
+					<label for= "memberID"> Member ID: </label>
+				</td>
+				<td>
+					<input type="text" id="name" name="memberID" value = "{{memberID}}" readonly />
+				</td>
+			</tr>
+			<tr>	
+			
+				<td>
+					<label for= "firstname"> First Name: </label>
+				</td>
+				<td>
+					<input type="text" id="firstname" name="firstname" value = "{{firstname}}" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+						<label for "lastname"> Last Name: </label>
+				</td>
+				<td>
+					<input type="text" id="lastname" name="lastname" value = "{{lastname}}" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+						<label for "age">Age</label>
+				</td>
+				<td>
+					<input type="text" id="name" name="age" value = "{{age}}" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+						<label for "email">Email</label>
+				</td>
+				<td>
+					<input type="text" id="email" name="email" value = "{{email}}" />
+				</td>
+			</tr>
+				<td>
+					<image src = "{{url_for('static', filename = 'RJ.jpeg')}}" width = "110" height = "130">
+				</td>
+				<td>
+						<textarea type="text" id="bio" name="bio" rows=4 cols=50 placeholder="I am an ISAT student at James Madison University. I was born in San Jose, California. I like to fish, hunt, and hangout with friends"></textarea>
+						</td>
+		</table>
+		<input type= "Submit" value = "Click to Update">
+		{% if success %}
+			<h3 style="color:magenta;">Data successfully submitted to the database!</h3>
+		{% endif %}
+		<a href = "/view_all_celebs">Click to view all of the celebrities</a>
+		<a href = "/view_one_celeb">Click to view one of the celebrities</a>
+		</form>
+		</fieldset>
+		
+	
+	</body>
+		
+	</html>
+					
+					
+					
+	

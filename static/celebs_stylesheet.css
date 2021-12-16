@@ -1,0 +1,67 @@
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+	height: 200px;
+	width: 50%;
+	background-color: red;
+	
+	}
+table {
+	table-layout: fixed;
+}
+img{
+	border: 1px solid #ddd
+	border-radius: 4px;
+	padding: 5px;
+	width: 250px;}
+<img src="https://s3.amazonaws.com/isat3402021/aj.jpg" alt="AJ">
+img{
+	border: 1px solid #ddd
+	border-radius: 4px;
+	padding: 5px;
+	height: 350px;}
+<img src="https://s3.amazonaws.com/isat3402021/bp.jpg" alt="PP">
+img{
+	border: 1px solid #ddd
+	border-radius: 4px;
+	padding: 5px;
+	height: 350px;}
+<img src="https://s3.amazonaws.com/isat3402021/sw.jpg" alt="SW">
+img{
+	border: 1px solid #ddd
+	border-radius: 4px;
+	padding: 5px;
+	height: 300px;}
+<img src="https://s3.amazonaws.com/isat3402021/dv.jpg" alt="SW">
+img{
+	border: 1px solid #ddd
+	border-radius: 4px;
+	padding: 5px;
+	height: 250px;}
+<img src="https://s3.amazonaws.com/isat3402021/ts.jpg" alt="TS">
+img{
+	border: 1px solid #ddd
+	border-radius: 4px;
+	padding: 5px;
+	height: 250px;}
+<img src="https://s3.amazonaws.com/isat3402021/bk.jpg" alt="BB">
+img{
+	border: 1px solid #ddd
+	border-radius: 4px;
+	padding: 5px;
+	height: 250px;}
+<img src="https://s3.amazonaws.com/isat3402021/sg.jpg" alt="SG">
+img{
+	border: 1px solid #ddd
+	border-radius: 4px;
+	padding: 5px;
+	height: 250px;}
+<img src="https://s3.amazonaws.com/isat3402021/sc.jpg" alt="SC">
+
+
+
+
+
+	
